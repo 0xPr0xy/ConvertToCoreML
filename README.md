@@ -5,8 +5,8 @@ This repository contains resources for converting caffe or keras models to CoreM
 models (.mlmodel)
 ------------------------------------------------------
 
-Models
--------
+Convertable Models
+------------------
 - MobileNet
 
 Installation
@@ -19,5 +19,8 @@ source env/bin/activate
 pip install tensorflow
 pip install keras==1.2.2
 pip install coremltools
+
+python convert<ModelName>.py
+
 deactivate # when you are done
 ```
